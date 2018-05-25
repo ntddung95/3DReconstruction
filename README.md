@@ -13,15 +13,15 @@ Compile all the files using the following commands.
 
 Change stereo camera IP and Arduino IP
 
-`inline code` $ mkdir build && cd build
+`$ mkdir build && cd build`
 
-`inline code` $ cmake ..
+`$ cmake ..`
 
-`inline code` $ make
+`$ make`
 
 ### Reconstruct 3D model from stereo cameras with structure light
 Run command:
 
-`inline code` $ ./mainFaceBlink 
+`$ ./mainFaceBlink`
 
 Press 'r' in input process windows to resume capturing.
