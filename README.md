@@ -1,11 +1,10 @@
-## 3D reconstruction using stereo camera with structure light
+# 3D reconstruction using stereo camera with structure light
 
 Author: MAMSUN and NHIM
 
 ### Dependencies
 - cmake
 - OpenCV
-- popt
 - dlib
 - PCL
 ### Compilation
@@ -14,15 +13,15 @@ Compile all the files using the following commands.
 
 Change stereo camera IP and Arduino IP
 
-mkdir build && cd build
+`inline code` $ mkdir build && cd build
 
-cmake ..
+`inline code` $ cmake ..
 
-make
+`inline code` $ make
 
 ### Reconstruct 3D model from stereo cameras with structure light
 Run command:
 
-./mainFaceBlink 
+`inline code` $ ./mainFaceBlink 
 
 Press 'r' in input process windows to resume capturing.
